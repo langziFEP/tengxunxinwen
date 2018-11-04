@@ -3,6 +3,9 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import'../chajian/reset/reset.css'
+import'../chajian/flexible/flexible'
+import'../chajian/flexible/flexible_css'
 
 Vue.config.productionTip = false
 

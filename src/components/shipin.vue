@@ -1,5 +1,5 @@
 <template>
-    <div>
+<div class="box">
     视频
     视频
     视频
@@ -17,9 +17,7 @@
     视频
     视频
     视频
-    视频
-    视频
-    </div>
+</div>
 </template>
 
 <script>
