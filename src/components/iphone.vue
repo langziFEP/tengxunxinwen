@@ -1,7 +1,9 @@
 <template>
     <div class="box">
         <button @click="btn">返回上一级页面</button>
-        <img src="../assets/iphone.png" alt="" class="iponeimg">
+        <p>
+            <img src="../assets/iphone.png" alt="" class="iponeimg">
+        </p>
     </div>
 </template>
 
@@ -19,7 +21,8 @@ export default {
     .box{
         width: 100%;
         .iponeimg{
-            width: 60%;
+            margin-top: 2.666667rem;
+            width: 100%;
         }
     }
 </style>
