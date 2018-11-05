@@ -2,6 +2,7 @@
 <div id="box">
   <div id="app">
     <router-view></router-view>
+    
     <fot></fot>
   </div>
 </div>
@@ -19,7 +20,7 @@ export default {
 
 <style lang="less">
 #box{
-  width: 10rem;
+  width: 100%;
 }
 #app {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
@@ -27,7 +28,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   /* text-align: center; */
   color: #2c3e50;
-  width: 9.333333rem;
+  width: 90%;
   margin: 0 auto;
 }
 </style>

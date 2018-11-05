@@ -447,6 +447,7 @@ export default {
       background: #f3f6f8;
       border-radius: 0.8rem;
       padding-left: 1.066667rem;
+      // background: url(../../../assets/fangdajing.png);
     }
   }
   .ul {

@@ -4,7 +4,7 @@
       <router-link tag="dl" to="/yaowen">
             <dl>
         <dt>
-          1
+          
         </dt>
         <dd>
           要闻
@@ -14,7 +14,7 @@
       <router-link tag="dl" to="/shipin">
             <dl>
         <dt>
-          1
+          
         </dt>
         <dd>
           视频
@@ -24,7 +24,7 @@
       <router-link tag="dl" to="/tuijian">
             <dl>
         <dt>
-          1
+          
         </dt>
         <dd>
           推荐
@@ -34,7 +34,7 @@
       <router-link tag="dl" to="/wo">
             <dl>
         <dt>
-          1
+          
         </dt>
         <dd>
           我
@@ -53,6 +53,7 @@ export default {};
 .myfooter {
   footer {
     width: 100%;
+    height: 1.066667rem;
     position: fixed;
     bottom: 0;
     left: 0;
@@ -62,9 +63,15 @@ export default {};
     justify-content: center;
     dl {
       flex: 1;
+      height: 100%;
+      text-align: center;
+      dd{
+        line-height: 1.066667rem;
+      }
     }
     .router-link-exact-active {
-      background: red;
+      background: skyblue;
+      color: red;
     }
   }
 }

@@ -9,6 +9,10 @@ import wo from '@/components/wo'
 import yw1 from '@/components/yw1'
 import redian from '@/components/redian'
 import iphone from '@/components/iphone'
+import xqlist from '@/components/xqlist'
+import nextwo from '@/components/nextwo'
+import denglu from '@/components/denglu'
+import imgs from '@/components/imgs'
 Vue.use(Router)
 
 export default new Router({
@@ -52,6 +56,26 @@ export default new Router({
       path: '/iphone',
       name: 'iphone',
       component: iphone
+    }, 
+    {
+      path: '/xqlist',
+      name: 'xqlist',
+      component: xqlist
+    }, 
+    {
+      path: '/nextwo',
+      name: 'nextwo',
+      component: nextwo
+    }, 
+    {
+      path: '/denglu',
+      name: 'denglu',
+      component: denglu
+    }, 
+    {
+      path: '/imgs',
+      name: 'imgs',
+      component: imgs
     }
   ]
 })
