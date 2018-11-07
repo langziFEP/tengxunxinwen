@@ -104,24 +104,24 @@ export default {
       }
     }
   }
-  .tj{
-      dl{
-          dt{
-              img{
-                  width: 100%;
-              }
-          }
-          dd{
-              p{
-                  line-height: 1.466667rem;
-                  display: flex;
-                  justify-content: space-between;
-                  span{
-                      padding: 0 0.266667rem;
-                  }
-              }
-          }
+  .tj {
+    dl {
+      dt {
+        img {
+          width: 100%;
+        }
       }
+      dd {
+        p {
+          line-height: 1.466667rem;
+          display: flex;
+          justify-content: space-between;
+          span {
+            padding: 0 0.266667rem;
+          }
+        }
+      }
+    }
   }
 }
 </style>

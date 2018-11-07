@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import fot from './components/fot.vue'
+import fot from "./components/fot.vue";
 export default {
   name: "App",
   components: {
@@ -19,7 +19,7 @@ export default {
 </script>
 
 <style lang="less">
-#box{
+#box {
   width: 100%;
 }
 #app {

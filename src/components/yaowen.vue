@@ -524,10 +524,10 @@ export default {
 .dujia{
   display: flex;
   flex-wrap: wrap;
-  justify-content:space-around;
+  justify-content:space-between;
   .dj{
-    width: 50%;
-    margin-top: .133333rem;
+    width: 45%;
+    margin-right: 0.2rem;
     dt{
       img{
         width: 4.6rem;
@@ -535,9 +535,11 @@ export default {
       }
     }
     dd{
+      width: 90%;
+      text-align: center;
       h1{
         font-weight: bolder;
-        line-height: .666667rem;
+        line-height: .5rem;
         font-size: .373333rem;
       }
       p{

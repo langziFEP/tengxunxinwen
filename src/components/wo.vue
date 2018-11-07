@@ -51,12 +51,12 @@ name: "box",
     h1{
       position: absolute;
       top: 2.533333rem;
-      left: 2.25rem;
+      left: 25%;
       font-size: 0.426667rem;
     }
     h2{
       position: absolute;
-      left: 2.25rem;
+      left: 25%;
       top: 3.2rem;
       font-size: 0.32rem;
     }
@@ -72,6 +72,9 @@ name: "box",
       line-height: 1.333333rem;
       font-size: 0.346667rem;
       background-size:0.666667rem; 
+      &:active{
+        background: skyblue;
+      }
       span{
         padding-left: 1.333333rem;
       }
